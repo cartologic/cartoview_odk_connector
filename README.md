@@ -1,7 +1,14 @@
 # ODK Connector
-ODK Connector is a [cartoview](github.com/cartologic/cartoview) app to integrate [ODK](https://opendatakit.org/) with [cartoview](github.com/cartologic/cartoview)
+ODK Connector is a [cartoview](github.com/cartologic/cartoview) app to integrate [ODK](https://opendatakit.org/) with [cartoview](github.com/cartologic/cartoview) to enable you to view the location of your ODK surveys.
+
+ODK enables you to design and perform surveys from your mobile to learn more about ODK click [here](https://opendatakit.org/)
 
 # Installation
+## Install ODK Aggregate
+First you have to install ODK Aggregate server to upload and manage the surevys form, and also to manage the users who collect the data
+1. Download ODK Aggregate installer for windows from [here](https://opendatakit.org/downloads/download-info/odk-aggregate-windows-installer-exe/)
+2. Create PostGIS database
+## Install ODK Connector
 1. Download the ODK Connector app package form [here](http://cartologic.com/cartoview2/apps/)
 2. in your [cartoview](github.com/cartologic/cartoview) installation, login as admin
 3. go to "Apps" then "Manage Apps" then "Install new app"
