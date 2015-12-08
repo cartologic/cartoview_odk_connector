@@ -15,8 +15,8 @@ ODK Aggregate will be deployed locally on a Tomcat server backed with PostgreSQL
 3. Double-click the installer file and go through the installation process to generate the WAR file for your server instance.
 4. In Choose Platform dialog select PostgreSQL
 5. Proceed till you complete the installation process.
-3. Go to the installation directory and copy the generated WAR file to tomcat (webapps directory) that installed with Cartoview where located under *"<CartoView Installation Directory>\tomcat 8"*
-4. Now ODK Aggregate will be ready on http://localhost:4041/ODKAggregate_NAME
+3. Go to the installation directory and copy the generated WAR file to tomcat (webapps directory) that installed with Cartoview where located under *<CartoView Installation Directory>\tomcat 8*
+4. Now ODK Aggregate will be ready on http://<Tomcat Server URL>/<ODK Aggregate Instance Name>
 
 #### Install ODK Connector
 1. Download the ODK Connector app package form [here](http://cartologic.com/cartoview2/apps/)
