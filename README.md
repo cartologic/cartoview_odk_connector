@@ -3,7 +3,13 @@ ODK Connector is a [cartoview](github.com/cartologic/cartoview) app to integrate
 
 [Open Data Kit (ODK)](https://opendatakit.org) enables you to design and perform surveys from your mobile to learn more about ODK click [here](https://opendatakit.org/)
 
-## Installation
+### Requirements
+===========
+- [Cartoview](https://github.com/cartologic/cartoview)
+- [ODK Aggregate Server](https://opendatakit.org)
+- PostgreSQL 9.4 or later
+
+### Installation
 #### Install [Cartoview](https://github.com/cartologic/cartoview)
 #### Install ODK Aggregate
 First you have to install ODK Aggregate server to upload and manage the surevys form, and also to manage the users who collect the data
@@ -11,7 +17,7 @@ First you have to install ODK Aggregate server to upload and manage the surevys 
 ODK Aggregate will be deployed locally on a Tomcat server backed with PostgreSQL database server through the following steps:
 
 1. Download ODK Aggregate installer for windows from [here](https://opendatakit.org/downloads/download-info/odk-aggregate-windows-installer-exe/)
-2. Create PostGIS database
+2. Create PostGIS database (PostgreSQL 9.4 or later)
 3. Double-click the installer file and go through the installation process to generate the WAR file for your server instance.
 4. In Choose Platform dialog select PostgreSQL
 5. Proceed till you complete the installation process.
