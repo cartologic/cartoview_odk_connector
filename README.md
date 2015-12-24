@@ -5,7 +5,7 @@ ODK Connector is a [cartoview](github.com/cartologic/cartoview) app to integrate
 
 
 ### Requirements
-*
+***
 - [Cartoview](https://github.com/cartologic/cartoview)
 - [ODK Aggregate Server](https://opendatakit.org)
 - PostgreSQL 9.4 or later
