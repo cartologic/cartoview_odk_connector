@@ -3,9 +3,9 @@ ODK Connector is a [cartoview](github.com/cartologic/cartoview) app to integrate
 
 [Open Data Kit (ODK)](https://opendatakit.org) enables you to design and perform surveys from your mobile to learn more about ODK click [here](https://opendatakit.org/)
 
-************
-Requirements
-************
+
+### Requirements
+****
 - [Cartoview](https://github.com/cartologic/cartoview)
 - [ODK Aggregate Server](https://opendatakit.org)
 - PostgreSQL 9.4 or later
